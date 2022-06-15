@@ -71,3 +71,9 @@
   border: none;
   color: #FFF;
 }
+
+@media only screen and (max-width: 600px) {
+  .nav-container .navigation ul {
+    padding-left: 0;
+  }
+}
