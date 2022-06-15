@@ -58,22 +58,38 @@
   list-style: none;
 }
 
+.nav-container .navigation ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+.nav-container .navigation ul li a:hover {
+  text-decoration: underline;
+  color: #000;
+}
+
 .nav-container .booking {
   display: flex;
   align-items: center;
 }
 
-.nav-container .booking .book-now {
+.nav-container .booking button.book-now {
   font-weight: bold;
   font-size: 16px;
   padding: 10px;
   background-color: #A79AFF;
   border: none;
   color: #FFF;
+  cursor: pointer;
+  border-radius: 4px;
 }
 
 @media only screen and (max-width: 600px) {
   .nav-container .navigation ul {
     padding-left: 0;
   }
+}
+
+.about, .services, .contact {
+  height: 90vh;
 }
